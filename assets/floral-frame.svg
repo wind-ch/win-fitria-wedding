@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1800">
+<defs>
+ <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8aa7bf"/><stop offset="1" stop-color="#547895"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b59662" stop-opacity="0"/><stop offset=".5" stop-color="#b59662" stop-opacity=".8"/><stop offset="1" stop-color="#b59662" stop-opacity="0"/></linearGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="1.5"/></filter>
+</defs>
+<g fill="none" stroke="#b59662" stroke-width="2" opacity=".52">
+ <rect x="38" y="38" width="1124" height="1724" rx="4"/>
+ <rect x="49" y="49" width="1102" height="1702" rx="4" stroke="#234f7a" stroke-opacity=".16"/>
+</g>
+<!-- TL botanical -->
+<g transform="translate(22,22)" stroke="url(#g)" stroke-width="4" fill="none" opacity=".9">
+ <path d="M10 10 C145 115 180 240 340 370"/>
+ <path d="M110 110 C180 105 225 65 250 20"/><path d="M170 170 C250 160 305 115 335 65"/>
+ <path d="M220 230 C300 225 350 180 390 125"/>
+</g>
+<g transform="translate(35,34)" fill="#6e90aa" opacity=".52">
+ <ellipse cx="120" cy="118" rx="54" ry="18" transform="rotate(-25 120 118)"/>
+ <ellipse cx="165" cy="154" rx="62" ry="20" transform="rotate(28 165 154)"/>
+ <ellipse cx="215" cy="205" rx="64" ry="20" transform="rotate(-24 215 205)"/>
+ <ellipse cx="275" cy="255" rx="62" ry="20" transform="rotate(28 275 255)"/>
+</g>
+<g transform="translate(58,48)">
+ <g fill="#7597b2" opacity=".7"><circle cx="68" cy="46" r="38"/><circle cx="112" cy="40" r="32"/><circle cx="126" cy="78" r="37"/></g>
+ <g fill="#f8f5ed" stroke="#6f8fa9" stroke-width="3"><circle cx="102" cy="61" r="15"/><circle cx="83" cy="48" r="15"/><circle cx="121" cy="47" r="15"/><circle cx="84" cy="74" r="15"/><circle cx="121" cy="75" r="15"/></g>
+ <circle cx="102" cy="61" r="8" fill="#b59662"/>
+</g>
+<!-- TR -->
+<g transform="translate(1178,22) scale(-1,1)"><use href="#none"/></g>
+<!-- bottom corners: mirrored copies via group transforms -->
+<g transform="translate(1200,1800) scale(-1,-1)">
+ <g transform="translate(22,22)" stroke="url(#g)" stroke-width="4" fill="none" opacity=".9">
+  <path d="M10 10 C145 115 180 240 340 370"/><path d="M110 110 C180 105 225 65 250 20"/><path d="M170 170 C250 160 305 115 335 65"/><path d="M220 230 C300 225 350 180 390 125"/>
+ </g>
+ <g transform="translate(35,34)" fill="#6e90aa" opacity=".52">
+  <ellipse cx="120" cy="118" rx="54" ry="18" transform="rotate(-25 120 118)"/><ellipse cx="165" cy="154" rx="62" ry="20" transform="rotate(28 165 154)"/><ellipse cx="215" cy="205" rx="64" ry="20" transform="rotate(-24 215 205)"/><ellipse cx="275" cy="255" rx="62" ry="20" transform="rotate(28 275 255)"/>
+ </g>
+ <g transform="translate(58,48)">
+  <g fill="#7597b2" opacity=".7"><circle cx="68" cy="46" r="38"/><circle cx="112" cy="40" r="32"/><circle cx="126" cy="78" r="37"/></g>
+  <g fill="#f8f5ed" stroke="#6f8fa9" stroke-width="3"><circle cx="102" cy="61" r="15"/><circle cx="83" cy="48" r="15"/><circle cx="121" cy="47" r="15"/><circle cx="84" cy="74" r="15"/><circle cx="121" cy="75" r="15"/></g><circle cx="102" cy="61" r="8" fill="#b59662"/>
+ </g>
+</g>
+<!-- top right mirror -->
+<g transform="translate(1200,0) scale(-1,1)">
+ <g transform="translate(22,22)" stroke="url(#g)" stroke-width="4" fill="none" opacity=".9">
+  <path d="M10 10 C145 115 180 240 340 370"/><path d="M110 110 C180 105 225 65 250 20"/><path d="M170 170 C250 160 305 115 335 65"/><path d="M220 230 C300 225 350 180 390 125"/>
+ </g>
+ <g transform="translate(35,34)" fill="#6e90aa" opacity=".52"><ellipse cx="120" cy="118" rx="54" ry="18" transform="rotate(-25 120 118)"/><ellipse cx="165" cy="154" rx="62" ry="20" transform="rotate(28 165 154)"/><ellipse cx="215" cy="205" rx="64" ry="20" transform="rotate(-24 215 205)"/><ellipse cx="275" cy="255" rx="62" ry="20" transform="rotate(28 275 255)"/></g>
+ <g transform="translate(58,48)"><g fill="#7597b2" opacity=".7"><circle cx="68" cy="46" r="38"/><circle cx="112" cy="40" r="32"/><circle cx="126" cy="78" r="37"/></g><g fill="#f8f5ed" stroke="#6f8fa9" stroke-width="3"><circle cx="102" cy="61" r="15"/><circle cx="83" cy="48" r="15"/><circle cx="121" cy="47" r="15"/><circle cx="84" cy="74" r="15"/><circle cx="121" cy="75" r="15"/></g><circle cx="102" cy="61" r="8" fill="#b59662"/></g>
+</g>
+</svg>
